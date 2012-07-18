@@ -32,6 +32,7 @@
 
 @interface SHKFacebook : SHKSharer <FBSessionDelegate, FBDialogDelegate, FBRequestDelegate, SHKFormControllerLargeTextFieldDelegate>
 
++ (Facebook*)facebook;
 + (BOOL)handleOpenURL:(NSURL*)url;
 
 @end
